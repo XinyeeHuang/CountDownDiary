@@ -1,0 +1,136 @@
+/**index.wxss**/
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #efefef;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  letter-spacing:1px;
+  }
+
+.window{
+  height: 100%;
+  overflow: auto;
+}
+.promotion{
+  background-color:rgba(255, 255, 255, 1); 
+  color:#000;
+  font-size: 16px;
+  padding: 20px;
+  height: 180px;
+}
+
+.promotion .titleArea{
+  display: flex;
+  color: #262626;
+}
+
+.promotion .type{
+  margin-left: 10px;
+}
+
+.changebg{
+  width: 25px;
+  height: 25px;
+  color: #606bc5;
+  margin-left: 147px;
+}
+
+.countArea{
+  display: flex;
+}
+
+.promotion .countArea .number{
+  font-weight: 350;
+  font-size: 120px;
+  line-height: 140px;
+  margin-right: 20px;
+}
+
+.promotion .countArea .day{
+  width: 50px;
+  height: 24px;
+  font-size: 16px;
+  padding-left: 5px;
+  margin-top: 90px;
+  background-color: #ffcc00;
+  border-radius: 10px;
+}
+
+.promotion .date{
+  color:#7d7b7b;
+  font-size: 14px;
+}
+
+.itemList{
+  margin: 10px 0px;
+  padding: 0px 20px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 1); 
+}
+
+.itemList .top{
+  font-size: 14px;
+  color: #7d7b7b;
+  line-height: 40px;
+  border-bottom: 1px #efefef solid;
+}
+
+.itemList .top .add{
+  float: right;
+  color: #606bc5;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.itemList .item{
+  border-bottom: 1px #efefef solid;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.itemList .item .firstLine{
+  display: flex;
+  line-height: 24px;
+}
+
+.itemList .item .firstLine .titleArea{
+  display: flex;
+  font-size: 16px;
+  color: #262626;
+  width: 235px;
+  line-height: 24px;
+}
+
+.itemList .item .firstLine .titleArea .type{
+  margin-left: 10px;
+}
+
+.itemList .item .firstLine .number{
+  width: 100px;
+  text-align: end;
+}
+
+.itemList .item .firstLine .y{
+  font-size: 24px;
+  color: #ffcc00;
+}
+
+.itemList .item .firstLine .b{
+  font-size: 24px;
+  color: #606bc5;
+}
+
+.itemList .item .secondLine{
+  display: flex;
+  color:#7d7b7b;
+  font-size: 12px;
+  line-height: 25px;
+}
+.itemList .item .secondLine .date{
+  width: 285px;
+}
+.itemList .item .secondLine .day{
+  width: 50px;
+  text-align: end;
+}

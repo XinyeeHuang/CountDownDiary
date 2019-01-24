@@ -1,0 +1,88 @@
+/**tabOne.wxss**/
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #efefef;
+}
+
+.demo {
+  padding: 20px 15px;
+}
+
+.demo-calendar {
+  padding-top: 20px; 
+  background-color: white;
+  box-shadow: 5px 5px 2px 1px rgba(239, 239, 239, 0.5);
+}
+
+.demo-header {
+  font-size: 14px;
+  color: black; 
+  letter-spacing: 2px;
+}
+
+.demo-board {
+  font-weight: bold;
+}
+
+
+.outer{
+  margin: 20px 0 0 25px;
+  height: 86px;
+  width: 375px;
+  border-left: 5px solid #ffcc00;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left{
+  width: 80px;
+  height: 70px;
+  margin: 10px;
+  border-right: 1px solid #efefef;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day{
+  width: 70px;
+  height: 30px;
+  padding-top: 2px;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.month{
+  width: 70px;
+  padding-top: 10px;
+  height: 12px;
+  font-size: 10px;
+  color: #aaaaaa;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.title{
+  padding: 3px 2px;
+  font-size: 16px;
+  height: 20px;
+  letter-spacing: 2px;
+}
+
+.content{
+  padding: 5px 2px;
+  width: 240px;
+  font-size: 10px;
+  color: #aaaaaa;
+  height: 30px;
+  line-height: 15px;
+  letter-spacing: 1px;
+}
+
+.outer:nth-child(2n){
+  border-left: 5px solid #606bc5;
+}

@@ -1,0 +1,109 @@
+<!--index.wxml-->
+<view class="containerbox">
+  <view class="top">
+    <image class='icon' src='/images/position.png' width="100%"></image>
+    <view class='position'>北京</view>
+    <view class='search'>
+      <image class='searchIcon' src='/images/search.png'></image>
+      <view class='text'>镇魂粉丝见面会--北京场</view>
+    </view>
+  </view>
+  <view class='ads'>
+    <swiper class="swiper" indicator-dots="true" autoplay="true" indicator-color="{{normalColor}}" indicator-active-color="{{selectedColor}}" interval="3000" duration="500">  
+      <block wx:for="{{movies}}" wx:for-index="index">  
+        <swiper-item>  
+         <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+    </swiper> 
+  </view>
+  <view class='nav'>
+    <view class='opt selected'>推荐</view>
+    <view class='opt'>讲座</view>
+    <view class='opt'>演出</view>
+    <view class='opt'>展览</view>
+    <view class='opt'>影视</view>
+  </view>
+  <view class='box'>
+    <view class='containbox'>
+      <view class='display'>
+        <image class='pic' src='/images/IMG_3826.JPG' width="100%" height="auto"></image>
+        <view class='name'>爱奇艺尖叫之夜</view>
+        <view class='ifm'>
+        时间：2018/08/18
+        </view>
+        <view class='ifm'>
+        地点：华熙LIVE.凯迪拉克中心
+        </view>
+        <view class='line'></view>
+        <view class='description'>一场属于你的夏日游乐园，一场偶像与粉丝的狂欢Party。</view>
+      </view>
+
+      <view class='display'>
+        <image class='pic' src='/images/IMG_3829.JPG' width="100%" height="auto"></image>
+        <view class='name'>灰姑娘</view>
+        <view class='ifm'>
+        时间：2018/08/07——08/12
+        </view>
+        <view class='ifm'>
+        地点：天桥艺术中心-大剧场
+        </view>
+        <view class='line'></view>
+        <view class='description'>战争虽然不幸，却可以检验世间真情。</view>
+      </view>
+
+      <view bindtap='actDetailClick' class='display'>
+        <image class='pic' src='/images/IMG_3827.JPG' width="100%" height="auto"></image>
+        <view class='name'>FLABJACKS北京首展</view>
+        <view class='ifm'>
+        时间：2018/08/11——10/07
+        </view>
+        <view class='ifm'>
+        地点：北京时代美术馆
+        </view>
+        <view class='line'></view>
+        <view class='description'>给北京带来一场温柔派对。</view>
+      </view>
+
+      <view class='display'>
+        <image class='pic' src='/images/IMG_3825.JPG' width="100%" height="auto"></image>
+        <view class='name'>莫文蔚演唱会</view>
+        <view class='ifm'>
+        时间：2018/09/22  19:00
+        </view>
+        <view class='ifm'>
+        地点：北京工人体育馆
+        </view>
+        <view class='line'></view>
+        <view class='description'>时隔三年，莫文蔚带着新一轮巡演再回北京。</view>
+      </view>
+
+      <view class='display'>
+        <image class='pic' src='/images/IMG_3828.JPG' width="100%" height="auto"></image>
+        <view class='name'>海上钢琴师</view>
+        <view class='ifm'>
+        时间：2018/11/07  19:30
+        </view>
+        <view class='ifm'>
+        地点：北京时代音乐厅
+        </view>
+        <view class='line'></view>
+        <view class='description'>每个听过他演奏的人，都被深深打动。</view>
+      </view>
+
+      <view class='display'>
+        <image class='pic' src='/images/IMG_3824.jpg' width="100%" height="auto"></image>
+        <view class='name'>2018杨丞琳北京演唱会</view>
+        <view class='ifm'>
+        时间：2018/08/25  18:30
+        </view>
+        <view class='ifm'>
+        地点：凯迪拉克中心
+        </view>
+        <view class='line'></view>
+        <view class='description'>杨丞琳每一次的出发，都是音乐上令人引颈期盼的标杆。</view>
+      </view>
+
+    </view>
+  </view>
+</view>

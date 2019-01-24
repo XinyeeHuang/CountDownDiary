@@ -1,0 +1,58 @@
+<!--index.wxml-->
+<calendar 
+weeks-type="full-en" 
+cell-size="30" 
+show-more-days="{{true}}"
+calendar-style="demo-calendar" 
+header-style="demo-header" 
+board-style="demo-board" 
+days-color="{{demo_days_style}}" 
+binddayClick="dayClick"
+/>
+
+<view class='diarylist'>
+  <view class='outer' bindtap='toast'>
+    <view class='left'>
+       <view class='day'><text>09</text></view>
+       <view class='month'><text>2018年7月</text></view>
+    </view>
+    <view class='right'>
+      <view class='title'><text>也台好笑了叭</text></view>
+      <view class='content'><text>没错我在说新版的流星花园、真真笑死人了哇哈哈哈哈哈，嗯没错是这样，好了我编不下去怎...</text></view>
+    </view>
+  </view>
+ 
+  <view class='outer'>
+    <view class='left'>
+       <view class='day'><text>07</text></view>
+       <view class='month'><text>2018年7月</text></view>
+    </view>
+    <view class='right'>
+      <view class='title'><text>这是标题</text></view>
+      <view class='content'><text>想文案真是太痛苦了。真实的痛苦但是我有什么办法呢，只能一点点写了，再一次编不下去怎...</text></view>
+    </view>
+  </view>
+
+  <view class='outer'>
+    <view class='left'>
+       <view class='day'><text>26</text></view>
+       <view class='month'><text>2018年6月</text></view>
+    </view>
+    <view class='right'>
+      <view class='title'><text>小可爱的破壳日</text></view>
+      <view class='content'><text>是哪个小可爱呢？我也不知道，就当作有吧。然后还是今天生日。生日要干嘛呢？浪啊吃啊喝...</text></view>
+    </view>
+  </view>
+
+  <view class='outer'>
+    <view class='left'>
+       <view class='day'><text>20</text></view>
+       <view class='month'><text>2018年5月</text></view>
+    </view>
+    <view class='right'>
+      <view class='title'><text>听说这是一个特别的日子</text></view>
+      <view class='content'><text>好像是一个特殊的日子，好像是一个特殊的日子好像是一个特殊的日子好像是一个特殊的日子...</text></view>
+    </view>
+  </view>
+
+</view>

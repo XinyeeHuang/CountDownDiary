@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tabOne/tabOne",
+    "pages/tabThree/tabThree",
+    "pages/writediary/writediary",
+    "pages/addDay/addDay",
+    "pages/theDay/theDay",
+    "pages/theAct/theAct",
+    "pages/lastdiary/lastdiary"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffcc00",
+    "navigationBarTitleText": "倒数日日记",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#a9b7b7",
+    "selectedColor": "#ffcc00",
+    "borderStyle": "black",
+    "list": [
+    {
+      "selectedIconPath": "images/page1-2.png",
+      "iconPath": "images/page1-1.png",
+      "pagePath": "pages/tabOne/tabOne",
+      "text": "日记"  
+    },
+    {
+      "selectedIconPath": "images/page2-2.png",
+      "iconPath": "images/page2-1.png",
+      "pagePath": "pages/index/index",
+      "text": "倒数日"  
+    },
+    {
+      "selectedIconPath": "images/page3-2.png",
+      "iconPath": "images/page3-1.png",
+      "pagePath": "pages/tabThree/tabThree",
+      "text": "广场"  
+    }
+    ]
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  }
+}

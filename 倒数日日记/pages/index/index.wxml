@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="window">
+  <view bindtap="detailClick" class="promotion">
+    <view class="titleArea">
+      <view class="title">加入倒数日日记</view>
+      <view class="type">已经</view>
+      <image class="changebg" src="/images/changebg.png"></image>
+    </view>
+    <view class="countArea">
+      <view class="number">30</view>
+      <view class="day">DAYS</view>
+    </view>
+    <view class="date">2018.06.12 星期一</view>
+  </view>
+  <view class="itemList">
+    <view class="top">
+      倒数管家
+      <view bindtap="addClick" class="add">+</view>
+    </view>
+    <view class="item">
+      <view class="firstLine">
+        <view class="titleArea">
+          <view class="title">放假</view>
+          <view class="type">还有</view>
+        </view>
+        <view class="y number">11</view>
+      </view>
+      <view class="secondLine">
+        <view class="date">2018.07.23 | 星期一</view>
+        <view class="day">DAYS</view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="firstLine">
+        <view class="titleArea">
+          <view class="title">我的生日</view>
+          <view class="type">还有</view>
+        </view>
+        <view class="y number">176</view>
+      </view>
+      <view class="secondLine">
+        <view class="date">2019.01.04 | 星期五</view>
+        <view class="day">DAYS</view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="firstLine">
+        <view class="titleArea">
+          <view class="title">第一篇日记</view>
+          <view class="type">已经</view>
+        </view>
+        <view class="b number">29</view>
+      </view>
+      <view class="secondLine">
+        <view class="date">2018.06.13 | 星期一</view>
+        <view class="day">DAYS</view>
+      </view>
+    </view>
+    <view class="item">
+      <view class="firstLine">
+        <view class="titleArea">
+          <view class="title">上一次追星</view>
+          <view class="type">已经</view>
+        </view>
+        <view class="b number">100</view>
+      </view>
+      <view class="secondLine">
+        <view class="date">2018.05.02 | 星期三</view>
+        <view class="day">DAYS</view>
+      </view>
+    </view>
+  </view>
+</view>
